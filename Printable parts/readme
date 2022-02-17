@@ -1,35 +1,17 @@
 HOW-TO PRINT BLOBSTER
 ---------------------
 
-I did not performed any tests regarding the different materials then mentioned as I was betting for sure from my point of view.
-The following setup works for me (after thousands of blobs the printed pieces look like new) but can imagine it can be simplified regarding
-material and nozzle usage. There's plenty of space for everyone to try different setups.
+I did not performed any tests regarding the different materials then mentioned as I was betting for sure from my point of view. The following setup works for me (after thousands of blobs the printed pieces look like new) but can imagine it can be simplified regarding material and nozzle usage. There's plenty of space for everyone to try different setups.
 
-The tolerances are big topic for moveble parts - Arm and both Axes. I spent lot of time to tune my setup and the models are calibrated
-to work on my printer (Ultimaker S5 Pro Bundle) and print parameters, material and orientation I use - described below.
+The tolerances are big topic for moveble parts - Arm and both Axes. I spent lot of time to tune my setup and the models are calibrated to work on my printer (Ultimaker S5 Pro Bundle) and print parameters, material and orientation I use - described below.
 
-You've been warned! From my experience even printing the moveable parts on different layer height brings different results. And for sure
-it will differ from printer to printer, maybe even when it is same brand / type. You have to dial it in by yourself, the editable formats of 
-3D models used are provided. Or you have to perform some sanding exercises. But surely the parts should move in each other absolutely free 
-with absolutely no resistance or you'll burn your expensive servos (it happened to me, so please believe me).
+You've been warned! From my experience even printing the moveable parts on different layer height brings different results. And for sure it will differ from printer to printer, maybe even when it is same brand / type. You have to dial it in by yourself, the editable formats of 3D models used are provided. Or you have to perform some sanding exercises. But surely the parts should move in each other absolutely free with absolutely no resistance or you'll burn your expensive servos (it happened to me, so please believe me).
 
-Another big topic is Arm. There are two versions - one (Arm16mmPin) is designed to be used 16mm standard carpet pin at the bottom - see 
-https://www.hornbach.cz/shop/Pripinacek-hreb-202-kobercovy-100-kusu-v-baleni/8866969/artikl.html
-for how it looks like (sorry for Czech site, somenone taking care about the BOM will find something global soon).
-It gives good results and is the one I used for the mosts of the test. File Arm itself is the newest version I'm playing with -
-it gives better formed megablobs but sometimes have problems with kicking the blob off (it sticks to the arm a bit). I'm planning
-to put something on the surface - am going to test capton tape, aluminium tape and the silicone pad, what is my favourite. The good news is
-that the nylon from which my arm is printed stays untouched by hot blobs or to be exact the blobs formed on it doesn't disrupt its surface. 
-I will bet it is a good way forward and that's why I published this version as standard no matter it is at the very beginning of development.
+Another big topic is Arm. There are two versions - one (Arm16mmPin) is designed to be used 16mm standard carpet pin at the bottom - see https://www.hornbach.cz/shop/Pripinacek-hreb-202-kobercovy-100-kusu-v-baleni/8866969/artikl.html for how it looks like (sorry for Czech site, somenone taking care about the BOM will find something global soon). It gives good results and is the one I used for the mosts of the test. File Arm itself is the newest version I'm playing with - it gives better formed megablobs but sometimes have problems with kicking the blob off (it sticks to the arm a bit). I'm planning to put something on the surface - am going to test capton tape, aluminium tape and the silicone pad, what is my favourite. The good news is that the nylon from which my arm is printed stays untouched by hot blobs or to be exact the blobs formed on it doesn't disrupt its surface. I will bet it is a good way forward and that's why I published this version as standard no matter it is at the very beginning of development.
 
-I printed Gear (2x) and Kicker with 0.25 nozzle because of very fine grip to fit to servos. Maybe 0.4 mm nozzle will work but I won't bet to it.
-But it is still possible to mount original servo arms (comes with servos) to the modified parts. Another place for adjustments.
+I printed Gear (2x) and Kicker with 0.25 nozzle because of very fine grip to fit to servos. Maybe 0.4 mm nozzle will work but I won't bet to it. But it is still possible to mount original servo arms (comes with servos) to the modified parts. Another place for adjustments.
 
-And last but not least - the Horseshoe. I used only high temperature resistant materials for printing it, Polymaker CoPa and DSM Arnitel 2060HT
-at the end (it's costly but really great). I can imagine that some ABS or PC can be used as well when it will be covered by aluminium tape i.e.
-- another big playground for investigation. If you'll have problem in that area I'm fine to send you few pieces printed (very limited offer -
-will do it just until it will overgrow my possibilities). I paid $200 for 1 kg spool and used just a few gramms until now (please note that 
-I have 2.85 mm filament, so don't ask me to cut a piece for you unless you have compatible printer).  
+And last but not least - the Horseshoe. I used only high temperature resistant materials for printing it, Polymaker CoPa and DSM Arnitel 2060HT at the end (it's costly but really great). I can imagine that some ABS or PC can be used as well when it will be covered by aluminium tape i.e. - another big playground for investigation. If you'll have problem in that area I'm fine to send you few pieces printed (very limited offer - will do it just until it will overgrow my possibilities). I paid $200 for 1 kg spool and used just a few gramms until now (please note that  I have 2.85 mm filament, so don't ask me to cut a piece for you unless you have compatible printer).  
 
 So, the verified print setups are:
 
@@ -39,9 +21,7 @@ Ultimaker Nylon, 0.4 mm nozzle, 0.1 mm layer height: Arm.3mf, Arm16mmPin.3mf, Ax
 Ultimaker Nylon, 0.25 mm nozzle, 0.1 mm layer height: Gear.3mf (2x), Kicker.3mf
 Polymaker CoPa or DSM Arnitel 2060HT (better), 0.4 mm nozzle, 0.2 mm layer height: Horseshoe.3mf
 
-The rest Base.3mf, Covermain.3mf, Coversmall.3mf, Displaycover.3mf and Stepdownholder.3mf doesn't matter from my point of view. 
-I used Ultimaker PETG, 0.4 mm nozzle, 0.1 mm layer height. Base.3mf have to be printed with "Detect / print thin walls attribute"
-because of display mount inside it.
+The rest Base.3mf, Covermain.3mf, Coversmall.3mf, Displaycover.3mf and Stepdownholder.3mf doesn't matter from my point of view. I used Ultimaker PETG, 0.4 mm nozzle, 0.1 mm layer height. Base.3mf have to be printed with "Detect / print thin walls attribute" because of display mount inside it.
 
 Everything is oriented as expected to be printed and I took care about supportless design matters - so no supports needed.
 

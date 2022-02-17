@@ -19,8 +19,8 @@ for how it looks like (sorry for Czech site, somenone taking care about the BOM 
 It gives good results and is the one I used for the mosts of the test. File Arm itself is the newest version I'm playing with -
 it gives better formed megablobs but sometimes have problems with kicking the blob off (it sticks to the arm a bit). I'm planning
 to put something on the surface - am going to test capton tape, aluminium tape and the silicone pad, what is my favourite. The good news is
-that the nylon from which my arm is printed stays untouched by hot blobs. I will bet it is a way and that's why I published this version
-as standard no matter it is at the very beginning of development.
+that the nylon from which my arm is printed stays untouched by hot blobs or to be exact the blobs formed on it doesn't disrupt its surface. 
+I will bet it is a good way forward and that's why I published this version as standard no matter it is at the very beginning of development.
 
 I printed Gear (2x) and Kicker with 0.25 nozzle because of very fine grip to fit to servos. Maybe 0.4 mm nozzle will work but I won't bet to it.
 But it is still possible to mount original servo arms (comes with servos) to the modified parts. Another place for adjustments.

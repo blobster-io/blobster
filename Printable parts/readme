@@ -13,7 +13,7 @@ it will differ from printer to printer, maybe even when it is same brand / type.
 3D models used are provided. Or you have to perform some sanding exercises. But surely the parts should move in each other absolutely free 
 with absolutely no resistance or you'll burn your expensive servos (it happened to me, so please believe me).
 
-Another big topic is Arm. There are two versions - one (Arm16mmPin) is using 16mm standard carpet pin see 
+Another big topic is Arm. There are two versions - one (Arm16mmPin) is designed to be used 16mm standard carpet pin at the bottom - see 
 https://www.hornbach.cz/shop/Pripinacek-hreb-202-kobercovy-100-kusu-v-baleni/8866969/artikl.html
 for how it looks like (sorry for Czech site, somenone taking care about the BOM will find something global soon).
 It gives good results and is the one I used for the mosts of the test. File Arm itself is the newest version I'm playing with -

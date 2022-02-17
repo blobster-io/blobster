@@ -3,7 +3,7 @@ HOW-TO PRINT BLOBSTER
 
 I did not performed any tests regarding the different materials than mentioned below as I was betting for sure from my point of view. The following setup works for me (after thousands of blobs the printed pieces look like new) but can imagine it can be simplified regarding material and nozzle usage. There's plenty of space for everyone to try different setups.
 
-The tolerances are big topic for moveable parts - Arm and both Axes. I spent lot of time to tune my setup and the models are calibrated to work on my printer (Ultimaker S5 Pro Bundle) and print parameters, material and orientation I use - described below.
+The tolerances are big topic for moveable parts - Arm and both Axes. I spent lot of time to tune my setup and the models are calibrated to work on my printer (Ultimaker S5 Pro Bundle) and print parameters, materials and orientation I use - described below.
 
 You've been warned! From my experience even printing the moveable parts on different layer height brings different results. And for sure it will differ from printer to printer, maybe even when it is same brand / type. You have to dial it in by yourself, the editable formats of 3D models used are provided. Or you have to perform some sanding exercises. But surely the parts should move in each other absolutely free with absolutely no resistance or you'll burn your expensive servos (it happened to me, so please believe me).
 

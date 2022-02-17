@@ -34,7 +34,8 @@ Ultimaker Nylon, 0.25 mm nozzle, 0.1 mm layer height: Gear.3mf (2x), Kicker.3mf
 Polymaker CoPa or DSM Arnitel 2060HT (better), 0.4 mm nozzle, 0.2 mm layer height: Horseshoe.3mf
 
 The rest Base.3mf, Covermain.3mf, Coversmall.3mf, Displaycover.3mf and Stepdownholder.3mf doesn't matter from my point of view. 
-I used Ultimaker PETG, 0.4 mm nozzle, 0.1 mm layer height.
+I used Ultimaker PETG, 0.4 mm nozzle, 0.1 mm layer height. Base.3mf have to be printed with "Detect / print thin walls attribute"
+because of display mount inside it.
 
 Everything is oriented as expected to be printed and I took care about supportless design matters - so no supports needed.
 

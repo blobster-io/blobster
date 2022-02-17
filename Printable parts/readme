@@ -9,8 +9,9 @@ The tolerances are big topic for moveble parts - Arm and both Axes. I spent lot 
 to work on my printer (Ultimaker S5 Pro Bundle) and print parameters, material and orientation I use - described below.
 
 You've been warned! From my experience even printing the moveable parts on different layer height brings different results. And for sure
-it will differ from printer to printer, maybe even when it is same brand. You have to dial it in by yourself, the editable formats of 
-3D models used are provided.
+it will differ from printer to printer, maybe even when it is same brand / type. You have to dial it in by yourself, the editable formats of 
+3D models used are provided. Or you have to perform some sanding exercises. But surely the parts should move in each other absolutely free 
+with absolutely no resistance or you'll burn your expensive servos (it happened to me, so please believe me).
 
 Another big topic is Arm. There are two versions - one (Arm16mmPin) is using 16mm standard carpet pin see 
 https://www.hornbach.cz/shop/Pripinacek-hreb-202-kobercovy-100-kusu-v-baleni/8866969/artikl.html

@@ -19,15 +19,14 @@
 #define servoYArduinoPin 6
 
 // Default values when config on microSD card is not present or there's no microSD card attached at all
-int homeX = 35;
-int homeY = 42;
-int initV = 54;
+bool firstRun = false;
+int initK = 50;
 int initX = 35;
-int initY = 42;
-int activeX = 102;
-int activeY = 68;
-int activeV = 100;
-int closerY = 48;
+int initY = 52; 
+int activeX = 110;
+int activeY = 30; 
+int activeK = 100;
+int closerY = 52; 
 
 // Display constructor
 U8G2_SSD1305_128X64_ADAFRUIT_F_HW_I2C u8g2(U8G2_R0);
@@ -111,7 +110,7 @@ void setup(void) {
   updateSplashDisplayStatus("Initializing SD card...");
   if (SD.begin(10)) {
     updateSplashDisplayStatus("SD card initialized.");
-    configFile = SD.open("config");
+    configFile = SD.open("blconfig");
     if (configFile) {
       // Read from the file until there's nothing else in it:
       updateSplashDisplayStatus("Reading config...");
@@ -124,14 +123,16 @@ void setup(void) {
     else
     {
       updateSplashDisplayStatus("No config file, defaults used.");
+      // Wait for user to be able to read message regarding config used
+      delay(4000);
     }
     // Close the file:
     configFile.close();
   } else {
-    updateSplashDisplayStatus("No SD card, defaults used.");  
+    updateSplashDisplayStatus("No SD card, defaults used.");
+    // Wait for user to be able to read message regarding config used
+    delay(4000);  
   }
-  // Wait for user to be able to read message regarding config used
-  delay(4000);
 
   // Induction trigger
   pinMode(inductionTriggerArduinoPin, INPUT);
@@ -143,9 +144,9 @@ void setup(void) {
   servoX.attach(servoXArduinoPin);
   servoY.attach(servoYArduinoPin);
 
-  servoK.write(initV);
+  servoK.write(initK);
   servoX.write(initX);
-  servoY.write(activeY);
+  if (firstRun) servoY.write(initY); else servoY.write(activeY);
   u8g2.clearBuffer();
 }
 
@@ -166,8 +167,8 @@ void loop(void) {
       }
       u8g2.setCursor(0,14);
       u8g2.print(messageText);
-      megaBlobPosition = closerY + (entryTimestamp - megaBlobTimestamp) / 1000;
-      if (megaBlobPosition <= activeY) { 
+      megaBlobPosition = closerY - (entryTimestamp - megaBlobTimestamp) / 1000; // megaBlobPosition = closerY + (entryTimestamp - megaBlobTimestamp) / 1000;
+      if (megaBlobPosition >= activeY) { 
         // Moving slighly down during purge of megablob
         servoY.write(megaBlobPosition);
       }
@@ -236,9 +237,9 @@ void loop(void) {
     delay(500);
     servoY.write(initY);
     delay(500);
-    servoK.write(activeV);
+    servoK.write(activeK);
     delay(200);
-    servoK.write(initV);
+    servoK.write(initK);
     delay(200);
     servoY.write(activeY);
     active = false;

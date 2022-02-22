@@ -2,14 +2,14 @@ There is basic wiring diagram in the files. BlobsterWiring is for the very first
 
 Fritzing files are not exact in components used - haven't found some, don;t know to use Fritzing at all and was doing it in a hurry. So the PNGs were edited in Photoshop a bit.
 
-BOM - not all "globalized", sorry for the links to Czech sites.
+BOM - not all "globalized", sorry for the links to sites in various countries.
 
 https://www.amazon.com/Arduino-Nano-Every-Single-Board/dp/B07VX7MX27/
 https://www.alibaba.com/product-detail/GME12864-80-White-IIC-I2C-SH1106_1600237129885.html
 https://www.amazon.com/LM2596-Converter-Module-Supply-1-23V-30V/dp/B008BHAV4Y/
-https://dratek.cz/arduino/1515-spinac-bezkontaktni-indukcni-tl-w5mc1-npn-dc-6-36v.html
-https://www.laskakit.cz/microsd-card-modul-spi-3-3v/ (optional, used in BlobsterWiringmicroSD)
-https://www.laskakit.cz/napajeci-konektor-dc-022-5-5-2-1mm-do-panelu/
+https://www.amazon.co.uk/TL-W5MC1-Sensor-Switch-Reliable-Detecting/dp/B099PYCX9V
+https://www.importedelectronics.com/products/10pcs-tf-micro-sd-card-module-mini-sd-memory-module-for-arduino-spi-interface
+https://www.amazon.com/RuiLing-10-Pack-Female-Connector-Electrical/dp/B07WFB2LDX/
 https://www.amazon.com/Hitec-32085S-HS-85MG-Metal-Universal/dp/B0006O3X5O (you need 2 pieces)
 https://www.amazon.com/Hitec-RCD-33045S-HS-45HB-Feather/dp/B000R3DMNW/
 

@@ -2,7 +2,7 @@ There is basic wiring diagram in the files. BlobsterWiring is for the very first
 
 Fritzing files are not exact in components used - haven't found some, don;t know to use Fritzing at all and was doing it in a hurry. So the PNGs were edited in Photoshop a bit.
 
-BOM - not yet "globalized", sorry for the links to Czech sites.
+BOM - not all "globalized", sorry for the links to Czech sites.
 
 https://www.laskakit.cz/arduino-nano-every--original/
 https://www.laskakit.cz/oled-displej-bily-128x64-1-3--i2c/
@@ -10,8 +10,8 @@ https://dratek.cz/arduino/1303-stepdown-nastavitelny-menic-s-lm2596-dc-dc.html
 https://dratek.cz/arduino/1515-spinac-bezkontaktni-indukcni-tl-w5mc1-npn-dc-6-36v.html
 https://www.laskakit.cz/microsd-card-modul-spi-3-3v/ (optional, used in BlobsterWiringmicroSD)
 https://www.laskakit.cz/napajeci-konektor-dc-022-5-5-2-1mm-do-panelu/
-https://www.peckamodel.cz/1hi3050-hs-85-mg (you need 2 pieces)
-https://www.peckamodel.cz/hs-45hb
+https://www.amazon.com/Hitec-32085S-HS-85MG-Metal-Universal/dp/B0006O3X5O (you need 2 pieces)
+https://www.amazon.com/Hitec-RCD-33045S-HS-45HB-Feather/dp/B000R3DMNW/
 
 *******************************************************************************************
 * EXTREME IMPORTANT WARNING - YOU CAN HURT YOUR BLOBSTER OR PRINTER WHEN NOT RESPECTED!!! *

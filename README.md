@@ -1,3 +1,5 @@
+See the Blobster Wiki for more information and guides: https://github.com/blobster-io/blobster/wiki
+
 *******************************************************************************************
 EXTREME IMPORTANT WARNING - YOU CAN HURT YOUR BLOBSTER OR PRINTER WHEN NOT RESPECTED!!!
 *******************************************************************************************
